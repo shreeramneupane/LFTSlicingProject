@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* LFT-Project Menu CSS DOcument */
+
+.menu-wrapper{
+	clear:both;
+	padding-top:36px;
+	float:left;
+	}
+	.menu-wrapper ul{
+		height:83px;
+		list-style:none;
+	}
+		.menu-wrapper ul li{
+			float:left;
+			position:relative;
+		}
+			.menu-wrapper ul li a{
+				height:21px;
+				text-decoration:none;
+				color:#ffffff;
+				display:block;
+				background-color:#a49191;
+				padding: 19px 8px 11px 8px;
+				margin-top:16px;
+				font-family:Verdana, Geneva, sans-serif;
+				font-weight:500;
+				font-size:18px;
+			}
+			.menu-wrapper ul li a:hover,.menu-wrapper ul li a.active{
+				background-color:#5a93e9;
+				padding: 35px 8px 27px 8px;
+				margin:0;
+			}
+			.menu-wrapper ul li ul{
+				width:186px;
+				height:38px;
+				min-height:38px;
+				height:auto !important;
+				padding:7px 0 3px 0;								
+				background-color:#594e4e;
+				position:absolute;
+				top:76px;				
+				display:none;
+			}
+			.menu-wrapper ul li:hover ul{
+				display:block;
+			}
+				.menu-wrapper ul li ul li{
+					width:186px;
+					margin-bottom:2px;						
+					background-color:#5a93e9;					
+				}
+					.menu-wrapper ul li ul li a{
+						width:166px;						
+						height:28px;
+						min-height:28px;
+						height:auto !important;
+						line-height:28px;
+						padding:0 10px;
+						display:block;
+						text-decoration:none;
+						color:#fffff;
+						margin:0;
+						background-color:#5a93e9;
+						font-size:17px;
+					}
+					.menu-wrapper ul li ul li a:hover{
+						background-color:#5a93e9;
+						padding: 0 10px;
+						margin:0;
+					}
+
+				
