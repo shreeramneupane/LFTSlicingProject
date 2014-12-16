@@ -79,10 +79,109 @@
 	padding: 1px 30px 30px 30px;
 }
 .info-section{
-	width:532px;
+	width:540px;
 	height:188px;
 	min-height:188px;
 	padding:24px;
 	height:auto !important;
-	background:red;
 }	
+	.info-section h1{
+		line-height:18px;
+		font-size:18px;
+		font-weight:500;
+		text-transform:uppercase;
+		color:#0d0d0d;
+		font-family:Verdana, Geneva, sans-serif;
+	}
+	.info-section p{
+		line-height:15px;
+		font-size:13px;
+		font-weight:500;
+		margin: 10px 0 18px 0;
+		color:#7f7f7f;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	.info-section h2{
+		height:23px;
+		min-height:23px;	
+		padding: 0 8px;
+		height:auto !important;
+		background-color:#388796;
+		border-bottom:2px solid #e6e6e6;
+		display:inline;			
+		border-radius:5px;
+	}
+		.info-section h2 a{
+			font-size:10px;
+			font-weight:500;
+			text-transform:uppercase;
+			color:#ffffff;
+			font-family:Verdana, Geneva, sans-serif;		
+			display:inline;
+			text-decoration:none;
+		}
+.product-view-section{
+	width:100%;
+}
+	.product-view-section ul{
+	list-style:none;	
+	}
+		.product-view-section ul li{
+			margin-right:1px;
+			float:left;
+			position:relative;
+		}
+			.product-view-section ul li.active{
+				margin:6px 1px 0 0;
+				float:left;
+			}
+			.product-view-section ul li h1{
+				font-size:14px;
+				font-weight:500;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			.product-view-section ul li a{
+				width:193px;
+				line-height:44px;
+				display:block;
+				text-decoration:none;
+				color:#ffffff;
+				background-color:#3d8896;
+				text-align:center;
+				text-transform:uppercase;
+			}			
+			.product-view-section ul li ul{
+				display:none;
+			}
+			.product-view-section ul li.active ul{
+				width:1008px;
+				position:absolute;
+				display:block;
+				left:0;
+				background:url(../images/product-view-section-border.png) bottom left repeat-x;
+			}	
+					.product-view-section ul li.active ul li{
+						width:276px;
+						height:287px;
+						min-height:287px;
+						height:auto !important;
+						margin:0;
+						padding:30px;
+						background:url(../images/product-view-section-border.png) top left repeat-x;
+					}
+						.product-view-section ul li.active ul li h2{
+							margin-top:30px;
+							line-height:15px;
+							font-size:14px;
+							font-weight:500;
+							font-family:Arial, Helvetica, sans-serif;
+							text-transform:uppercase;
+						}
+						.product-view-section ul li.active ul li p{
+							line-height:15px;
+							font-size:13px;
+							font-weight:500;
+							margin: 10px 0 15px 0;
+							color:#7f7f7f;
+							font-family:Arial, Helvetica, sans-serif;
+						}
