@@ -64,7 +64,7 @@
   width: 1008px;
   padding: 0px 30px 13px 30px;
   background-color: #a49191;
-  
+  display:none;
 }
 
 .slider {
@@ -79,6 +79,7 @@
   margin-top:10px;
   list-style: none;
   width: 10000px;
+  display:none;
 }
 
 .slider ul li {
