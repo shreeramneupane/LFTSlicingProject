@@ -64,7 +64,7 @@
   width: 1008px;
   padding: 0px 30px 13px 30px;
   background-color: #a49191;
-  display:none;
+  
 }
 
 .slider {
@@ -79,7 +79,6 @@
   margin-top:10px;
   list-style: none;
   width: 10000px;
-  display:none;
 }
 
 .slider ul li {
@@ -139,7 +138,7 @@
 /*body left block CSS*/
 .left-block {
   width: 540px;
-  height: 185px;
+  height: 18px;
   min-height: 185px;
   padding: 0 24px 24px 4px;
   height: auto !important;
